@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Instagram Clone</title>
+    </head>
+    <body>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!--Navigation Bar-->
+        <div class="navbar" id="bar">
+            <div class="main">
+                    <img id="barlogo" src="inslogo.png" width="198" alt="An instagram logo">
+                    <input id="searchlogo" type="text" placeholder="Happy Birthday!">
+                    <a href="#" id="compass"><img src="compass.png"  height="46" alt="An instagram compass logo"> </a>
+                    <a href="#" id="heart"><img src="heart.png" height="46"   alt="An instagram heart logo"></a>
+                    <a href="#" id="profile"><img src="profile.png" height="46"   alt="An instagram profile logo"></a>
+            </div>
+        </div>
+
+        <!--Everything below nav bar-->
+        <div class="container">
+            <!--Main-->
+            <div class="content">
+                <div class="post" id="post1">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">russxun</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="firstday.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">520 likes</a><br>
+                        <a class="users">russxun</a>
+                        <a class="commentcontent">First day with Shuo!!!! 太激动啦！！！</a>
+                        <a class="commentcontent" style="color:#043666;">#在一起啦</a><br>
+                        <p class="ago"><small>261 Days Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post2-->
+                <div class="post" id="post2">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">loveshuo</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="favsmile.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">1314 likes</a><br>
+                        <a class="users">loveshuo</a>
+                        <a class="commentcontent">这是我最爱的一张照片，没有之一，看到这样的笑容，这样的女孩，我说什么都要好好对她，好好和</a>
+                        <a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>
+                        <a class="commentcontent" style="color:#043666;">#babe</a><br>
+                        <p class="ago"><small>11 Hours Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post3-->
+                <div class="post" id="post3">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">shuoshuopipi</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="bestpic.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">250 likes</a><br>
+                        <a class="users">shuoshuopipi</a>
+                        <a class="commentcontent">看看我们曾经瘦的时候还是神雕侠侣呢~我宝宝真是太好看啦~~</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#couple #denim</a><br>
+                        <p class="ago"><small>11 Hours Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post4-->
+                <div class="post" id="post4">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">shuoshuopipi</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="firstmeal.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">666 likes</a><br>
+                        <a class="users">shuozhuzhu</a>
+                        <a class="commentcontent">我们一起做的第一顿饭！！以后还要做好多好多饭一起吃！！！</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#chinesefood #muamuamua</a><br>
+                        <p class="ago"><small>999 Hours Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post5-->
+                <div class="post" id="post5">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">悄悄祝你生日快乐~</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="studytogether.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">999 likes</a><br>
+                        <a class="users">smartshuo</a>
+                        <a class="commentcontent">怀念以前一起在学校学期的时候嘞~宝宝赶due可认真啦！</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#couple #pupupu</a><br>
+                        <p class="ago"><small>88 Hours Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post6-->
+                <div class="post" id="post6">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">derderder</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="sakura.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">100086 likes</a><br>
+                        <a class="users">sakurashuo</a>
+                        <a class="commentcontent">樱花美女硕真的绝了</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#couple #cherryblossom</a><br>
+                        <p class="ago"><small>123456789 Hours Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post7-->
+                <div class="post" id="post7">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">paodu</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="huijia.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">1 likes</a><br>
+                        <a class="users">chinanumberone</a>
+                        <a class="commentcontent">逃毒啦啦啦啦 快跑呀！！！！这种经历真不是一般人能一起拥有的嘞~这一路还好有你~</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#CO-VID19 </a><br>
+                        <p class="ago"><small>0 Hours Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post8-->
+                <div class="post" id="post8">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">meinv</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="shipinmeinv.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">9.7b likes</a><br>
+                        <a class="users">yidilian</a>
+                        <a class="commentcontent">开始异地恋啦~宝宝也太太太太太太太太太好看了！！！</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#美女 #爱了 </a><br>
+                        <p class="ago"><small>0 min Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!--Post9-->
+                <div class="post" id="post9">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">chifan!</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="suggest1.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">777m likes</a><br>
+                        <a class="users">woshizhuzhu</a>
+                        <a class="commentcontent">硕硕吃播来啦！！！！小孩子要被吃掉啦！！！！</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#🐖 #👶 </a><br>
+                        <p class="ago"><small>1 minute Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post10-->
+                <div class="post" id="post10">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">theforbiddencity_official</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="shengri.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">777777 likes</a><br>
+                        <a class="users">theforbiddencity_official</a>
+                        <a class="commentcontent">可爱的游客照诶！</a>
+                        <!--<a class="commentcontent" style="padding-left: 35px;">她在一起，我想这辈子都看到这样的笑容</a>-->
+                        <a class="commentcontent" style="color:#043666;">#北京欢迎您 </a><br>
+                        <p class="ago"><small>14 days Ago</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Post10-->
+                <div class="post" id="post10">
+                    <div class="postheader">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">Shuo</div>
+                    </div>
+                    <div class="postmain">
+                        <a href="#" id="post1"><img class="postpic" src="gugong.jpg" alt="A post picture"></a>
+                    </div>
+                    <div class="postfooter">
+                        <a href="#" class="footerlinks" id="heartlink">
+                            <img class="footerpics" src="hearticon.png"  height="20" alt="An image for like">
+                        </a>
+                        <a href="#" class="footerlinks" id="messagelink">
+                            <img class="footerpics" src="msgicon.png" height="20" alt="An image for msg">
+                        </a>
+                        <a href="#" class="footerlinks" id="sharelink">
+                            <img class="footerpics" src="shareicon.png" height="20" alt="An image for share">
+                        </a>
+                        <a href="#" class="footerlinks" id="savelink">
+                            <img class="footerpics" src="saveicon.png" height="20" alt="An image for save">
+                        </a>
+                    </div>
+                    <div class="others">
+                        <a class="likes">19981101 likes</a><br>
+                        <a class="users">happybirthday_shuooooooo</a>
+                        <a class="commentcontent">今天是宝宝长大的日子啦！！！我们虽然在一起还没有一年，但是和你在一起</a>
+                        <a class="commentcontent" style="padding-left: 35px;">的这一段时间真的是我这二十几年最开心的时光啦。宝宝在新的一年一定要茁壮成长，抛开烦恼，锻炼身体，</a>
+                        <a class="commentcontent" style="padding-left: 35px;">做一个健康快乐聪明的乖宝宝~ 我们要一起度过好多好多个生日呀，我要每年都送宝宝礼物呀！！！生日快</a>
+                        <a class="commentcontent" style="padding-left: 35px;">乐，杨硕硕！！</a>
+                        <a class="commentcontent" style="color:#043666;">#生日快乐~ </a><br>
+                        <p class="ago"><small>Just Now</small></p>
+                    </div>
+                    <hr style="margin-bottom:1px; margin-top:8px;">
+                    <div class="postcomment">
+                        <a class="expansion" href="">Post</a></span>
+                        <div style="width: 80%">
+                            <span><input type="text" style="border: none" class="form-control form-control-sm"  placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--Sidebar-->
+            <div class="sidebar">
+                <div class="sidebarmain">
+                    <div class="profileinfo">
+                        <a href="#" id="russ"><img class="profilepic" src="russ.jpg"  alt="A profile picture"></a>
+                        <div class="profilename">russxun</div><br>
+                        <div class="subname">Russell Xun</div>
+                    </div>
+                    <div class="stories">
+                        <div class="storiesheader">
+                            <a id="title">Stories</a>
+                            <a id="watch">Watch All</a>
+                        </div>
+                        <div class="storiescontent">
+                            <div class="story" id="story1">
+                                <a href="#"><img class="storyimg" src="head1.jpg" alt="An image for story1"></a>
+                                <div class="profilename">大头硕~</div><br>
+                                <div class="subname">17 minutes ago</div>
+                            </div>
+                            <div class="story" id="story2">
+                                <a href="#"><img class="storyimg" src="head3.jpg" alt="An image for story1"></a>
+                                <div class="profilename">美丽硕~</div><br>
+                                <div class="subname">20 minutes ago</div>
+                            </div>
+                            <div class="story" id="story3">
+                                <a href="#"><img class="storyimg" src="head4.jpg" alt="An image for story1"></a>
+                                <div class="profilename">熊猫宝宝~</div><br>
+                                <div class="subname">38 minutes ago</div>
+                            </div>
+                            <div class="story" id="story4">
+                                <a href="#"><img class="storyimg" src="head5.jpg" alt="An image for story1"></a>
+                                <div class="profilename">潮硕~</div><br>
+                                <div class="subname">46 minutes ago</div>
+                            </div>
+                            <div class="story" id="story5">
+                                <a href="#"><img class="storyimg" src="head6.jpg" alt="An image for story1"></a>
+                                <div class="profilename">仙女硕~</div><br>
+                                <div class="subname">52 minutes ago</div>
+                            </div>
+                            <div class="story" id="story6">
+                                <a href="#"><img class="storyimg" src="head7.jpg" alt="An image for story1"></a>
+                                <div class="profilename">背影硕~</div><br>
+                                <div class="subname">55 minutes ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestions">
+                        <div class="suggestionsheader">
+                            <a id="title">Suggestions</a>
+                            <a id="watch">See All</a>
+                        </div>
+                        <div class="suggestionscontent">
+                            <div class="leftsuggest">
+                                <div class="suggestion" id="suggestion1">
+                                    <a href="#"><img class="suggestimg" src="suggest1.jpg" alt="An image for suggest1"></a>
+                                    <div class="profilename">大口硕~</div><br>
+                                    <div class="subname">吃得好香噢~</div>
+                                </div>
+                                <div class="suggestion" id="suggestion2">
+                                    <a href="#"><img class="suggestimg" src="suggest2.jpg" alt="An image for suggest1"></a>
+                                    <div class="profilename">粽子硕~</div><br>
+                                    <div class="subname">裹在被子里超可爱~</div>
+                                </div>
+                            </div>
+                            
+                            <div class="rightsuggest">
+                                <div class="follow" id="follow1">
+                                    <a href="#">Follow</a>
+                                </div>
+                                <div class="arrow">
+                                    <a href="#"><img src="arrow.png" alt="An image for arrow" width="20"></a>
+                                </div>
+                                <div class="follow" id="follow2">
+                                    <a href="#">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footerlinks">
+                        <a class="footerlink" href="#">About Us</a>.
+                        <a class="footerlink" href="#">Support</a>.
+                        <a class="footerlink" href="#">Press</a>.
+                        <a class="footerlink" href="#">API</a>.
+                        <a class="footerlink" href="#">Jobs</a>.
+                        <a class="footerlink" href="#">Privacy</a>.
+                        <a class="footerlink" href="#">Terms</a>.
+                        <a class="footerlink" href="#">Directory</a>.
+                        <a class="footerlink" href="#">Profile</a>.<br>
+                        <a class="footerlink" href="#">Hashtages</a>.
+                        <a class="footerlink" href="#">Language</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
